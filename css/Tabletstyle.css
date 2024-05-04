@@ -1,0 +1,51 @@
+@media all and (max-width:950px) {
+    .fix-width {
+        width: 90%;
+    }
+
+    body {
+        background: white;
+    }
+
+    .slider {
+        height: 500px;
+        background: url(../images/slider-9.jpg) 0px 0px;
+        background-size: cover;
+    }
+
+    .slider-title {
+        padding: 20px 15px;
+    }
+
+    .slider-title h2 {
+        font-size: 2.8rem;
+    }
+
+    .post-box {
+        width: 50%;
+    }
+
+    .quicklink {
+        display: none;
+    }
+
+    .footer-box {
+        width: 50%;
+    }
+
+    .slider-contact {
+        height: 500px;
+        /* border: solid 5px black; */
+        position: relative;
+        background: url(../images/slider-12.jpg) 0px 0px;
+        background-size: cover;
+    }
+
+    .slider-about {
+        height: 500px;
+        /* border: solid 5px black; */
+        position: relative;
+        background: url(../images/slider-11.jpg) 0px 0px;
+        background-size: cover;
+    }
+}

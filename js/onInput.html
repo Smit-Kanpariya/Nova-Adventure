@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ON-INPUT</title>
+    <style>
+        span
+        {border: solid 1px black;
+        border-radius: 50%;
+        padding: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        function changecolor(data)
+        {
+            document.bgColor=data;
+        }
+        function changesize(data)
+        {
+            var fontsize;
+            fontsize=data + "Px";
+
+            document.getElementById('size-box').innerHTML=fontsize;
+            document.getElementById('content').style.fontSize=fontsize;
+        }
+    </script>
+</head>
+<body>
+    <label for="">
+    <p> Select Theme Color : <input type="color" name="color-box" id="color-box" oninput="changecolor(this.value)" ></p></label>
+    <p>
+        Select Font Size : <input type="range" id="font-box" name="font-box" oninput="changesize(this.value)" min="10" max="100" value="16">
+        <span id="size-box">16 Px</span>
+    </p>
+<br>
+<p id="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, exercitationem mollitia! Inventore, dolore, numquam dolor aliquid sed earum vel, voluptatum aut facilis blanditiis adipisci. Mollitia inventore ea tempora quam incidunt sint, perferendis harum quos doloremque quaerat accusantium totam vitae. Quasi quod obcaecati sint illo minus vero, dolore molestias optio ducimus sunt nesciunt corrupti explicabo impedit quo atque, suscipit perferendis velit inventore dicta consequuntur cumque fugit temporibus eveniet porro? Assumenda omnis architecto officia ullam reiciendis, mollitia quaerat soluta! Omnis autem fuga quas necessitatibus officia, molestiae, unde nulla, consectetur laboriosam consequatur illo illum quisquam labore delectus a officiis? Eos architecto labore explicabo?</p>
+</body>
+</html>

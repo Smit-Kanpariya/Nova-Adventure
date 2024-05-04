@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Time Out</title>
+    <script type="text/javascript">
+        var x=0;
+        function changecolor()
+        {
+            if(x==0)
+            {
+                document.bgColor="red";
+                document.fgColor="yellow";
+                x=1;
+            }
+            else if(x==1)
+            {
+                document.bgColor="black";
+                document.fgColor="green";
+                x=2;
+            }
+            else
+            {
+                document.bgcolor="skyblue";
+                document.fgColor="white";
+                x=0;
+            }
+            setTimeout("changecolor()","1000");
+        }
+    </script>
+</head>
+<body onload="changecolor()">
+    <h2>Set Time Out Function</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero minus sit provident cupiditate quidem similique, amet quod, porro mollitia fuga asperiores a vel laboriosam praesentium ipsa accusamus vitae saepe, magni assumenda. Magnam, ea pariatur aliquam mollitia, asperiores fugiat beatae ex, tempora numquam molestiae sit tempore ducimus facere accusamus reprehenderit aspernatur vel distinctio adipisci voluptate laboriosam quo temporibus eum. Delectus illum perferendis asperiores dolorem doloribus facere, vero minima unde autem harum aliquid dolorum voluptatibus aperiam quas ipsam, ducimus eius provident! At provident reiciendis autem omnis similique incidunt ut sint hic cupiditate quos facilis fuga officia doloribus porro, cum non animi ex.</p>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On mouse over</title>
+</head>
+<style>
+    label
+    {
+        width: 113px;
+        display: inline-block;
+    }
+    input
+    {
+        width: 300px;
+    }
+    .box
+    {
+        display: inline-block;
+        border: solid 1px black;
+        border-radius: 10px;
+        padding: 20px 40px 40px 40px;
+        margin: 300px 450px ;
+        background-color: rgb(177, 225, 119);
+    }
+    body
+    {
+        background-color: yellowgreen;
+    }
+</style>
+<script type="text/javascript">
+    function getname()
+    {
+        var fn,mn,ln,fln;
+        fn=document.getElementById('fn').value;
+        mn=document.getElementById('mn').value;
+        ln=document.getElementById('ln').value;
+
+        document.getElementById('fln').value=fn+ " " +mn + " " +ln;
+        document.getElementById('fln').style.textTransform="uppercase";
+
+    }
+
+</script>
+<body>
+    <div class="box">
+        <p></p><label for="">First Name : </label> <input type="text" name="fn" id="fn" onkeyup="getname()">
+        <p></p><label for="">Middle Name : </label> <input type="text" name="mn" id="mn" onkeyup="getname()">
+        <p></p><label for="">Last Name : </label> <input type="text" name="ln" id="ln" onkeyup="getname()">
+        <p></p><label for="">Full Name : </label> <input type="text" name="fln" id="fln" readonly="readonly">
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .theme-box
+        {
+            border: 0px solid black;
+            height: 200px;
+            padding: 15px;
+        }
+        .theme-1,.theme-2,.theme-3,.theme-4,.theme-5
+        {
+            border: 1px solid black;
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            margin: 0px 110px;
+        }
+        .theme-1
+        {
+            background: tomato;
+        }
+        .theme-2
+        {
+            background: lightyellow;
+        }
+        .theme-3
+        {
+            background: skyblue;
+        }
+        .theme-4
+        {
+            background: lightpink;
+        }
+        .theme-5
+        {
+            background: lightseagreen;
+        }
+    </style>
+    <script type="text/javascript">
+        function changetheme1()
+        {
+            document.bgColor="tomato";
+            document.fgColor="white";
+        }
+        function changetheme2()
+        {
+            document.bgColor="lightyellow";
+            document.fgColor="black";
+        }
+        function changetheme3()
+        {
+            document.bgColor="skyblue";
+            document.fgColor="blue";
+        }
+        function changetheme4()
+        {
+            document.bgColor="lightpink";
+            document.fgColor="white";
+        }
+        function changetheme5()
+        {
+            document.bgColor="lightseagreen";
+            document.fgColor="white";
+        }
+        function normaltheme()
+        {
+            document.bgColor="white";
+            document.fgColor="black";
+        }
+    </script>
+</head>
+<body>
+    <div class="theme-box">
+        <div class="theme-1" onmouseover="changetheme1()" onmouseout="normaltheme()"></div>
+        <div class="theme-2" onmouseover="changetheme2()" onmouseout="normaltheme()"></div>
+        <div class="theme-3" onmouseover="changetheme3()" onmouseout="normaltheme()"></div>
+        <div class="theme-4" onmouseover="changetheme4()" onmouseout="normaltheme()"></div>
+        <div class="theme-5" onmouseover="changetheme5()" onmouseout="normaltheme()"></div>
+    </div>
+    <marquee behavior="scroll" direction="Left" scrollamount="30" height="200" width="50%" onmouseover="stop()" onmouseout="start()"><img src="../images/slider-6.jpg" alt="This is an Image " width="300"></marquee>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe accusamus voluptatum itaque consequatur mollitia nihil, tempore ut nam aliquam, corrupti voluptates excepturi minus quidem sequi totam consequuntur deserunt porro perspiciatis reiciendis aperiam? Assumenda libero delectus aliquam natus molestias illum dolorem eius corrupti, asperiores et ad, neque autem sapiente. Necessitatibus omnis, eum nostrum quae aliquam quod dolorum aperiam earum odit dicta inventore cumque obcaecati voluptatibus nisi corrupti ipsum sit facere eaque sint harum vel dolores! Similique ratione eius aspernatur omnis incidunt architecto soluta autem consequatur. Optio voluptatem nisi, earum voluptate harum rerum excepturi nostrum debitis eius saepe exercitationem amet cupiditate pariatur numquam! Culpa recusandae nostrum illo, nemo, hic nesciunt vitae voluptas dolorum tempore distinctio inventore! Inventore dicta distinctio eos cumque doloribus tempora pariatur corporis corrupti voluptatibus enim. Harum delectus, ex ipsa eos sit officia minima itaque ut magnam illo laboriosam ullam nulla maxime voluptate quis, pariatur non praesentium commodi. Velit cumque necessitatibus eum ut pariatur officiis a, adipisci totam quod voluptates quasi. Quasi quas beatae pariatur officiis dolores ducimus? Quod, ad ducimus laboriosam modi consequatur id ipsum corporis ea, consectetur sunt ullam illum officia, atque tempora. Neque asperiores libero, nesciunt cum eveniet error sint provident quia at ipsa, delectus tempore.</p>
+</body>
+</html>

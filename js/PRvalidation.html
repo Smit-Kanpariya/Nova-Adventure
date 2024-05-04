@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Of Validation</title>
+</head>
+<style type="text/css">
+    .error-box{
+        border: solid 1px red;
+        background-color: lightyellow;
+        color: red;
+        padding: 15px;
+        width: 30%;
+        display: none;
+    }
+</style>
+<script type="text/javascript">
+    function checkdata(frm){
+        var fname,lname,gender,mobileno,email,cemail,vcode,tnc,error,status;
+        fname=frm.firstname.value;
+        lname=frm.lastname.value;
+        gender=frm.gender.value;
+        mobileno=frm.mobileno.value;
+        email=frm.email.value;
+        cemail=frm.cemail.value;
+        vcode=frm.vcode.value;
+        tnc=frm.tnc.value;
+        status=true;
+        error=[];
+
+        if(fname==""){
+            error[error.length]="First Name is Required. Please ! Enter Valid First Name.";
+            status=false;
+        }
+
+
+
+
+        if(status==false){
+            showerror(error);
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+
+    function showerror(error){
+        var message="<h2>ERROR</h2>";
+        var x,srno=1;
+
+        for(x=0; x<error.length;x++){
+            message=message + srno + ">" + error[x] + "<br>";
+            srno++;
+        }
+        document.getElementById('error-summary').innerHTML=message;
+        document.getElementById('error-summary').style.display="block";
+    }
+</script>
+<body>
+    <form action="LOOP.html" method="post" onsubmit="return checkdata(this)">
+        <p>
+            First Name : <input type="text" id="firstname" name="firstname" placeholder="enter your first name ">
+        </p>
+        <p>
+            Last Name : <input type="text" id="lastname" name="lastname" placeholder="enter your last name ">
+        </p>
+        <p>
+            Gender: <select name="gender" id="">
+                <option value="">--Select Gender--</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+        </p>
+        <p>
+            Mobile No. : <input type="text" id="monileno" name="monileno" placeholder="1234567890" >
+        </p>
+        <p>
+            Email : <input type="text" id="email" name="email" placeholder="youremail@gmail.com">
+        </p>
+        <p>
+            Confirm Email : <input type="text" id="cemail" name="cemail" placeholder="youremail@gmail.com" >
+        </p>
+        <p>
+            Verification code : <input type="text" id="vcode" name="vcode" placeholder="0000-00000-000">
+        </p>
+        <p>
+            Terms and Conditions : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, aut!<input type="checkbox" id="tnc" name="tnc">
+        </p>
+        <p>
+            <input type="submit" name="" id="" value="Register Now">
+        </p>
+    </form>
+    <p id="error-summary" class="error-box"> </p>
+</body>
+</html>

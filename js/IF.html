@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF and IF ELSE </title>
+</head>
+<style>
+    label
+    {
+        width: 210px;
+        display: inline-block;
+    }
+</style>
+<script>
+    // Relation Operator
+    // ---------------------------------------------------
+    // ==     <       <=        >        >=         <>
+
+    // Logical Operator
+    // ---------------------------------------------------
+    // &&      And
+    // ||      Or
+    // !=      Not
+
+    // Syntax of IF 
+    // ---------------------------------------------------
+    // if (condition)
+    // {
+    //     statement 1 ;
+    // }
+    // else
+    // {
+    //     statement 2;
+    // }
+    function getsalary()
+    {
+        var salary,bonus=0,net;
+
+        salary=parseInt(document.getElementById('salary').value);
+        if(salary>10000)
+        {
+            bonus=salary*15/100;
+        }
+        net=bonus+salary;
+        document.getElementById('net').value=net;
+        document.getElementById('bonus').value=bonus;
+    }
+    function getresult()
+    {
+        var eng,message;
+        eng=parseInt(document.getElementById('eng').value);
+
+        if(eng>35)
+        {
+            message="Congratulation ! You are Pass ";
+            document.getElementById('page').style.background="green";
+        }
+        else
+        {
+        {
+            message="Sorry  ! You are Fail ";
+            document.getElementById('page').style.background="red";
+        }
+        document.getElementById('result-area').innerHTML=message;
+        }   
+    }
+</script> 
+<body id="page">
+    <h2>Example ! <small>(Single IF condition)</small></h2>
+    <p>
+        <label for="">Enter Your Basic Salary :</label><input type="text" name="salary" id="salary">
+                                    <input type="button" value="Get Net Salary" onclick="getsalary()">
+    </p>
+    
+    <p>
+        <label for=""> Bonus :</label><input type="text" name="bonus" id="bonus" readonly="readonly">
+    </p>
+    
+    <p>
+        <label for="">Net Salary : </label><input type="text" name="net" id="net" readonly="readonly">
+    </p>
+
+    <h2>Example ! <small>(Single IF condition)</small></h2>
+
+    <p>
+        Enter Your English Marks : <input type="text" name="eng" id="eng">
+        <p><input type="button" value="Get Result" onclick="getresult()"></p>
+    </p>
+    <p id="result-area">
+        Your Result Will Appear Here !
+    </p>
+</body>
+</html>
