@@ -3,7 +3,7 @@
 Welcome to the Adventure Community Website project!
 
 - **index.html**: Main HTML file containing the structure of the website.
-- **css/**: Directory containing CSS stylesheets for different device sizes and fonts.
+- **css**: Directory containing CSS stylesheets for different device sizes and fonts.
   - `style.css`: General styles for the website.
   - `Tabletstyle.css`: Styles specific to tablet-sized screens.
   - `Phonestyle.css`: Styles specific to phone-sized screens.
