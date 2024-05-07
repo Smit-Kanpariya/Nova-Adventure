@@ -9,29 +9,29 @@
   }
   
   .container {
-    width: 300px; /* Adjust the width as needed */
+    width: 300px;
     margin: 20px;
-    perspective: 1000px; /* Set perspective for 3D effect */
+    perspective: 1000px; 
   }
   
   .login-container,
   .signup-container {
-    background-color: #f9e5d4; /* Light orange */
+    background-color: #f9e5d4; 
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transform-style: preserve-3d; /* Preserve 3D transformations */
-    transition: transform 0.3s ease; /* Smooth transition for transform */
+    transform-style: preserve-3d; 
+    transition: transform 0.3s ease; 
   }
   
   .login-container:hover,
   .signup-container:hover {
-    transform: rotateY(5deg); /* Rotate slightly on hover */
+    transform: rotateY(5deg); 
   }
   
   h2 {
-    color: #4a3f35; /* Coffee color */
+    color: #4a3f35; 
   }
   
   input[type="email"],
@@ -40,7 +40,7 @@
     width: 100%;
     padding: 12px;
     margin: 10px 0;
-    border: 1px solid #d3cfc6; /* Lighter coffee color for border */
+    border: 1px solid #d3cfc6; 
     border-radius: 6px;
     background-color: #fff;
   }
@@ -48,21 +48,21 @@
   button {
     width: 100%;
     padding: 12px;
-    background-color: #7f5f49; /* Darker coffee color for button */
+    background-color: #f6a020; 
     color: #fff;
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    transition: background-color 0.3s ease; 
   }
   
   button:hover {
-    background-color: #e79e6d; /* Light orange with transition effect */
+    background-color: #7f5f49; 
   }
   
   a {
     text-decoration: none;
-    color: #7f5f49; /* Darker coffee color for link */
+    color: #733520; 
   }
   
   a:hover {
