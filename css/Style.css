@@ -86,16 +86,48 @@ body {
 
 
 
-
 .slider {
-    height: 600px;
+    height: 350px; /* Default height for smaller screens */
     width: 100%;
-    /* border: solid 5px black; */
     position: relative;
-    background: url(../images/slider-9.jpg) 0px -270px;
+    background: url(../images/slider-9.jpg) 0 0;
     background-size: cover;
     background-position: center;
 }
+
+.slider-title {
+    position: absolute;    
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff; 
+    width: 80%; 
+    max-width: 500px; 
+
+
+    font-size: 24px; 
+    line-height: 1.5; 
+}
+
+.slider-title h1 {
+    font-size: 36px; /* Larger font size for the heading */
+    margin-bottom: 10px; /* Bottom margin for the heading */
+}
+
+/* Adjust font sizes for smaller screens using media queries */
+@media (max-width: 768px) {
+    .slider-title {
+        font-size: 20px; /* Decrease font size for smaller screens */
+        bottom: 10px; /* Adjust positioning */
+    }
+    
+    .slider-title h1 {
+        font-size: 28px; /* Decrease heading font size */
+    }
+}
+
+
 
 .slider-about {
     height: 600px;
@@ -137,6 +169,35 @@ body {
 .slider-title h2 {
     font-size: 3.5rem;
     margin-left: 15px;
+}    
+
+/* Tablet (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-title {
+        left: 50%; /* Center horizontally on tablet screens */
+        transform: translateX(-50%) translateY(-50%);
+        padding: 20px;
+        border-radius: 8px;
+        font-size: 2.5rem;
+    }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .slider-title {
+        left: 50%; /* Center horizontally on mobile screens */
+        transform: translateX(-50%) translateY(-50%);
+        padding: 15px;
+        border-radius: 6px;
+        font-size: 2rem;
+    }
+}
+
+/* Adjustments for larger desktop screens (e.g., 1920px width and above) */
+@media (min-width: 1920px) {
+    .slider-contact {
+        background-position: 0px -100px; /* Adjusted background position for better display */
+    }
 }
 
 
