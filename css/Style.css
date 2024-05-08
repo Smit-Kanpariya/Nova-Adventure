@@ -175,16 +175,16 @@ body {
 .primary-menu-area {
     height: 50px;
     background: #f6a020;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Centered flex display for primary menu */
+
 .primary-menu {
     display: flex;
     justify-content: center;
 }
 
-/* Base styles for primary menu list */
+
 .primary-menu ul {
     list-style-type: none;
     padding: 0;
@@ -192,14 +192,14 @@ body {
     display: flex;
 }
 
-/* Style for each menu item */
+
 .primary-menu li {
     position: relative;
     margin-right: 20px;
     float: left;
 }
 
-/* Style for menu item links */
+
 .primary-menu a {
     color: #733520;
     text-decoration: none;
@@ -207,17 +207,17 @@ body {
     line-height: 50px;
     display: block;
     font-size: 17px;
-    transition: color 0.3s ease; /* Smooth color transition */
+    transition: color 0.3s ease; 
 }
 
-/* Hover and active styles for menu item links */
+
 .primary-menu a:hover,
 .primary-menu a.active {
     color: #f6a020;
     background: #733520;
 }
 
-/* Dropdown menu styles */
+
 .primary-menu ul ul {
     position: absolute;
     top: 100%;
@@ -226,20 +226,20 @@ body {
     min-width: 156px;
     display: none;
     padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add stronger shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Style for dropdown menu items */
+
 .primary-menu ul ul li {
     float: none;
 }
 
-/* Display dropdown menu on hover */
+
 .primary-menu ul li:hover ul {
     display: block;
 }
 
-/* Media query for tablet */
+
 @media (max-width: 768px) {
     .primary-menu {
         flex-wrap: wrap;
@@ -263,14 +263,14 @@ body {
     }
 }
 
-/* Media query for mobile */
+
 @media (max-width: 480px) {
     .primary-menu a {
         font-size: 15px;
     }
 }
 
-/* Extra styles for a 3D effect */
+
 .primary-menu a {
     position: relative;
     transition: all 0.3s ease;
@@ -284,12 +284,12 @@ body {
     width: 100%;
     height: 3px;
     background: #f6a020;
-    transform: scaleX(0); /* Initially hidden */
+    transform: scaleX(0); 
     transition: transform 0.3s ease;
 }
 
 .primary-menu a:hover::before {
-    transform: scaleX(1); /* Show the underline on hover */
+    transform: scaleX(1); 
 }
 
 
