@@ -151,11 +151,13 @@ body {
 
 .primary-menu ul ul {
     position: absolute;
-    top: 100%;
+    top: 100%; /* Position below the parent item */
     left: 0;
     background: #f6a020;
+    min-width: 200px;
     display: none;
-    width: 200px; /* Adjust as needed */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
