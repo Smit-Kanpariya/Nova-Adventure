@@ -56,28 +56,31 @@ body {
 /* ============================================================================================================================================================ */
 
 .slider {
-    height: 650px;
+    height: 600px;
+    width: 100%;
     /* border: solid 5px black; */
     position: relative;
-    background: url(../images/slider-9.jpg) 0px -160px;
+    background: url(../images/slider-9.jpg) 0px -270px;
     background-size: cover;
 }
 
 .slider-about {
-    height: 650px;
+    height: 600px;
+    width: 100%;
     /* border: solid 5px black; */
     position: relative;
-    background: url(../images/slider-11.jpg) 0px -100px;
+    background: url(../images/slider-11.jpg) 0px -200px;
     background-size: cover;
 }
 
 .slider-contact {
-    height: 650px;
+    height: 600px;
+    width: 100%;
     /* border: solid 5px black; */
     position: relative;
-    background: url(../images/slider-12.jpg) 0px -60px;
+    background: url(../images/slider-12.jpg) 0px -50px;
     background-size: cover;
-}
+} 
 
 .slider-title {
     text-align: center;
