@@ -87,7 +87,7 @@ body {
 
 
 .slider {
-    height: 350px; /* Default height for smaller screens */
+    height: 500px; /* Default height for smaller screens */
     width: 100%;
     position: relative;
     background: url(../images/slider-9.jpg) 0 0;
@@ -130,7 +130,7 @@ body {
 
 
 .slider-about {
-    height: 600px;
+    height: 500px;
     width: 100%;
     /* border: solid 5px black; */
     position: relative;
@@ -140,11 +140,11 @@ body {
 }
 
 .slider-contact {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    /* border: solid 5px black; */
+    /* border: solid 5px rgb(255, 0, 0); */
     position: relative;
-    background: url(../images/slider-12.jpg) 0px -50px;
+    background: url(../images/slider-10.jpg) -50px -50px;
     background-size: cover;
     background-position: center;
     @media (min-width: 1920px) {
