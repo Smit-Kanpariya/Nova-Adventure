@@ -172,15 +172,16 @@ body {
     line-height: 1.2;
 }
 
-.slider-title h3 {
-    font-size: 3rem; /* Larger font size for main title */
+.slider-title h4 {
+    font-size: 2.5rem; /* Larger font size for main title */
     margin-bottom: 10px; /* Spacing between title and subtitle */
+    padding: 25px;
 }
 
 .slider-title p {
-    font-size: 1.5rem; /* Font size for subtitle */
+    font-size: 1.3rem; /* Font size for subtitle */
     margin: 0; /* Remove default margin */
-    padding: 20px;
+    padding: 5px;
 } 
 
 /* Tablet (768px - 991px) */
