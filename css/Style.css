@@ -87,7 +87,7 @@ body {
 
 
 .slider {
-    height: 500px; /* Default height for smaller screens */
+    height: 500px;
     width: 100%;
     position: relative;
     background: url(../images/slider-9.jpg) 0 0;
@@ -111,11 +111,11 @@ body {
 }
 
 .slider-title h1 {
-    font-size: 36px; /* Larger font size for the heading */
-    margin-bottom: 10px; /* Bottom margin for the heading */
+    font-size: 36px; 
+    margin-bottom: 10px; 
 }
 
-/* Adjust font sizes for smaller screens using media queries */
+
 @media (max-width: 768px) {
     .slider-title {
         font-size: 20px; /* Decrease font size for smaller screens */
@@ -206,12 +206,27 @@ body {
     }
 }
 
-/* Adjustments for larger desktop screens (e.g., 1920px width and above) */
+
 @media (min-width: 1920px) {
     .slider-contact {
-        background-position: 0px -100px; /* Adjusted background position for better display */
+        background-position: 0px -100px;
     }
 }
+
+@media (max-width: 768px) {
+    .fix-width {
+      width: 90%; 
+    }
+  
+    .slider {
+      height: 300px; 
+    }
+  }
+  
+
+
+
+
 
 
 
