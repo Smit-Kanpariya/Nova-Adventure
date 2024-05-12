@@ -153,8 +153,8 @@ body {
 .slider-title {
     text-align: center;
     position: absolute;
-    left: 30%; /* Adjust this value to move the title box further left */
-    top: 50%; /* Center vertically */
+    left: 30%; 
+    top: 50%; 
     transform: translate(-50%, -50%);
     color: white;
     padding: 20px; /* Adjust padding for a smaller size */
