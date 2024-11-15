@@ -8,7 +8,7 @@ Welcome to the Adventure Community Website project!
   - `Tabletstyle.css`: Styles specific to tablet-sized screens.
   - `Phonestyle.css`: Styles specific to phone-sized screens.
 - **images/**: Directory containing images used on the website.
-- **README.md**: This file providing an overview of the project.
+
 
 ## Features
 
