@@ -2,6 +2,12 @@
 
 Welcome to the Adventure Community Website project!
 
+Preview
+<img width="1422" alt="Screenshot 2024-12-26 at 9 49 51 PM" src="https://github.com/user-attachments/assets/dab308fa-600c-47cf-b69b-56e1057e3b8d" />
+<img width="1420" alt="Screenshot 2024-12-26 at 9 50 19 PM" src="https://github.com/user-attachments/assets/80b7717d-2864-425b-831c-2a3e94436d72" />
+<img width="1420" alt="Screenshot 2024-12-26 at 9 50 45 PM" src="https://github.com/user-attachments/assets/13e18b87-aafa-449a-a4f3-fcc254683c2e" />
+
+
 ## Project Structure
 
 - **index.html**: Main HTML file containing the structure of the website.
