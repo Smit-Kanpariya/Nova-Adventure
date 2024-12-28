@@ -7,19 +7,6 @@ Preview
 <img width="1420" alt="Screenshot 2024-12-26 at 9 50 19 PM" src="https://github.com/user-attachments/assets/80b7717d-2864-425b-831c-2a3e94436d72" />
 <img width="1420" alt="Screenshot 2024-12-26 at 9 50 45 PM" src="https://github.com/user-attachments/assets/13e18b87-aafa-449a-a4f3-fcc254683c2e" />
 
-
-## Project Structure
-
-- **index.html**: Main HTML file containing the structure of the website.
-- **login_signup.html**: HTML file for the login and signup functionality, allowing users to create accounts or log in to access personalized features.
-- **css/**: Directory containing CSS stylesheets for different device sizes and fonts.
-  - `style.css`: General styles for the website.
-  - `Tabletstyle.css`: Styles specific to tablet-sized screens.
-  - `Phonestyle.css`: Styles specific to phone-sized screens.
-- **images/**: Directory containing images used on the website.
-
----
-
 ## Features
 
 - **Navigation**: Easily navigate through different sections of the website using the primary menu.
@@ -32,4 +19,16 @@ Preview
   - Personalized experience upon logging in, including saved events and preferences.
 
 --- 
+
+## Project Structure
+
+- **index.html**: Main HTML file containing the structure of the website.
+- **login_signup.html**: HTML file for the login and signup functionality, allowing users to create accounts or log in to access personalized features.
+- **css/**: Directory containing CSS stylesheets for different device sizes and fonts.
+  - `style.css`: General styles for the website.
+  - `Tabletstyle.css`: Styles specific to tablet-sized screens.
+  - `Phonestyle.css`: Styles specific to phone-sized screens.
+- **images/**: Directory containing images used on the website.
+
+---
 
