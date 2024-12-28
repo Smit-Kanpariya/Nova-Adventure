@@ -15,8 +15,7 @@ Preview
 - **Social Integration**: Connect with the community via social media platforms.
 - **Login & Signup**: 
   - Access the **Login/Signup** page to create an account or log in to an existing one.  
-  - Secure account management with options for email verification and password reset.
-  - Personalized experience upon logging in, including saved events and preferences.
+
 
 --- 
 
